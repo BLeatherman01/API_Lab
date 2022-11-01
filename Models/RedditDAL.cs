@@ -1,6 +1,4 @@
-﻿
-
-using RestSharp;
+﻿using RestSharp;
 
 namespace API_LAB.Models
 {
@@ -14,7 +12,6 @@ namespace API_LAB.Models
         Rootobject rp = response.Result;
 
         return rp; 
-       }
-       
+       } 
     }
 }

@@ -6,9 +6,7 @@ C:\Users\bleat\source\repos\API_LAB\bin\Debug\net6.0\API_LAB.deps.json
 C:\Users\bleat\source\repos\API_LAB\bin\Debug\net6.0\API_LAB.runtimeconfig.json
 C:\Users\bleat\source\repos\API_LAB\bin\Debug\net6.0\API_LAB.dll
 C:\Users\bleat\source\repos\API_LAB\bin\Debug\net6.0\API_LAB.pdb
-C:\Users\bleat\source\repos\API_LAB\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\bleat\source\repos\API_LAB\bin\Debug\net6.0\RestSharp.dll
-C:\Users\bleat\source\repos\API_LAB\bin\Debug\net6.0\RestSharp.Serializers.NewtonsoftJson.dll
 C:\Users\bleat\source\repos\API_LAB\obj\Debug\net6.0\API_LAB.csproj.AssemblyReference.cache
 C:\Users\bleat\source\repos\API_LAB\obj\Debug\net6.0\API_LAB.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\bleat\source\repos\API_LAB\obj\Debug\net6.0\API_LAB.AssemblyInfoInputs.cache

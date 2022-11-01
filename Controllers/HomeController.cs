@@ -1,7 +1,7 @@
 ﻿using API_LAB.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-using static API_LAB.Models.Data;
+
 
 namespace API_LAB.Controllers
 {
@@ -18,15 +18,19 @@ namespace API_LAB.Controllers
 
         public IActionResult Index()
         {
- 
-            return View();
+            Rootobject r = api.GetPost();
+            //this act as a file path, if I start digging here I have immediate access to all the post data
+            //This will simplify calling it in my view
+            Data1 d = r.data.children[1].data;
+            return View(d);
         }
         
         public IActionResult Post()
         {
-          Rootobject rp = api.GetPost();
+            Rootobject r = api.GetPost();
+            Child[] post = r.data.children;
             
-            return View(rp);  
+            return View(post);  
         }
 
         public IActionResult Privacy()
