@@ -1,0 +1,11 @@
+﻿@model Rootobject
+
+ 
+@foreach(Child c in Model.data.children)
+{
+	
+	<p>Title: @c.data.title</p>
+	<img src="@c.data.thumbnail" alt="@c.data.title" />
+	<p><a href="@($"https://reddit.com{c.data.permalink}")">Path</a></p>
+	
+}
